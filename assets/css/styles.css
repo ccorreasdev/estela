@@ -455,6 +455,62 @@ body {
   }
 }
 
+.contact__layout {
+  width: 100%;
+  padding: 5rem;
+}
+
+.contact__container {
+  background-color: #cbddd1;
+  border-radius: 2rem;
+  overflow: hidden;
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 5rem;
+}
+
+.contact__title {
+  font-family: "Faldith";
+  font-size: 5rem;
+}
+
+.contact__field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.contact__mail {
+  margin-top: 2rem;
+}
+
+.contact__btn {
+  margin-top: 3rem;
+  width: 100%;
+  height: 4rem;
+  font-size: 1.8rem;
+  border: none;
+  background-color: #474b49;
+  cursor: pointer;
+  color: white;
+  border: solid 1px white;
+  transition: all 250ms ease-in-out;
+  border-radius: 2rem;
+  order: 3;
+}
+
+.contact__btn:hover {
+  background-color: #cbddd1;
+  color: black;
+}
+
+@media (max-width: 520px) {
+  .contact__layout {
+    padding: 5rem 0rem;
+  }
+}
+
 .footer__layout {
   background-color: #cbddd1;
   width: 100%;
