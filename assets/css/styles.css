@@ -201,7 +201,6 @@ body {
   }
 
   .main__image {
-    border-radius: 2rem;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -212,6 +211,8 @@ body {
   .main__photo {
     width: 15rem;
     height: 15rem;
+    border-radius: 20rem;
+    margin-bottom: 3rem;
   }
 
   .main__title {
